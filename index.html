@@ -3,12 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Credit Card Generator</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <title>Creditcard Validator</title>
 </head>
 <body>
-    <button class="generate">Generate Number</button>
-    <p class="output"></p>
+  <section class="cc_widgets">
+    <div class="cc_generator">
+      <button class="generate">Generate Number</button>
+      <p class="valid_number"></p>
+    </div>
+    <div class="widget">
+        <div class="input_button">
+      <input class="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" maxlength="19" placeholder="xxxx xxxx xxxx xxxx">
+      <button class="authenticate">Validate</button>
+        </div>
+        <div class="response">
+        <p class="verdict"></p>
+        <p class="card_type"></p>
+        </div>
+      </div>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>

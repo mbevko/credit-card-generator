@@ -1,3 +1,106 @@
-.generate {
+body {
+    background: black;
+    margin: 0;
+    color: #00B2FF;
+  }
+
+  header {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  h1 {
+    color: white;
+    font-size:  30pt;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .cc_widgets {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .generate {
     cursor: pointer;
+    color: #00B2FF;
+    border: solid #00B2FF 1px;
+    background: transparent;
+    padding: 15px 20px;
+    font-size: 12pt;
+  }
+
+  .generate:hover {
+    color: black;
+    border: solid black 1px;
+    background: #00B2FF;
+  }
+
+  .cc_generator {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .valid_number {
+    color: silver;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  .widget { 
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ccn {
+    background: black;
+    color: white;
+    border: solid #00B2FF 1px;
+    padding: 20px;
+    font-size: 14pt;
+    width: 165px;
+    padding: 10px;
+    font-family: 'Roboto Mono', monospace;
+  } 
+  
+  .authenticate {
+    cursor: pointer;
+    color: #00B2FF;
+    background: black;
+    border: none;
+    padding: 10px 31px;
+    font-size: 14pt;
+    border: solid #00B2FF 1px;
+  }
+  
+  .authenticate:hover {
+    background: #00B2FF;
+    color: black;
+  }
+  
+  .response {
+    color: grey;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16pt;
+    border: solid 1px;
+    background: black;
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    border: solid #00B2FF 1px;
   }
